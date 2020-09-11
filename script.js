@@ -7,7 +7,7 @@ $(function(){
     strings: [
       "Empire Studios Online <br /> ^1000" +
       "Is currenly undergoing maintenance. <br /> ^1000" +
-      "Let me try and help. <br /> ^1000" +
+      "Contact Jose for inquires, at <a class="tel" tabIndex="-1" href="tel:01872 272894">01872 272894</a>. <br /> ^1000" +
       "Go back <a href='/'>home</a> and start over."
     ],
     typeSpeed: 0,
