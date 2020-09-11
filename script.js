@@ -5,8 +5,8 @@
 $(function(){
   $('.text').typed({
     strings: [
-      "Oops! It looks like you're lost. <br /> ^1000" +
-      "Sorry about that. <br /> ^1000" +
+      "Empire Studios Online <br /> ^1000" +
+      "Is currenly undergoing maintenance. <br /> ^1000" +
       "Let me try and help. <br /> ^1000" +
       "Go back <a href='/'>home</a> and start over."
     ],
