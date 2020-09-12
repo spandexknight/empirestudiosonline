@@ -8,7 +8,7 @@ $(function(){
       "Empire Studios Online <br /> ^1000" +
       "Is currenly undergoing maintenance. <br /> ^1000" +
       "Contact Jose for inquires, at <a class='tel' tabIndex='-1' href='tel:+19783957220'>(978)-395-7220</a>. <br /> ^1000" +
-      "Go back <a href='/'>home</a> and start over."
+      "Go back <a href='gallery.html'>Gallery</a> and start over."
     ],
     typeSpeed: 0,
     showCursor: false
