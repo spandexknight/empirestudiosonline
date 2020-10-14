@@ -2,57 +2,63 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="gallerymain2.css">
-
+    <meta name="description" content="Empire Studios of Peabody's online web profile. Incredible cuts from a Master Barbor. Book now though phone!">
+    <meta name="keywords" content="Empire Studios, EmpireStudios, haircut peabody, barber shop north shore, best barber north shore, best cuts north shore, salem massachusetts attractions">
+    <meta property="og:title" content="Empire Studios" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://www.empirestudiosonline.com/gallery" />
+    <meta property="og:image" content="imgs/img.jpg" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href='https://fonts.googleapis.com/css?family=Roboto+Mono:400,300' rel='stylesheet' type='text/css'>
+
+    <link rel="icon" href="imgs/logo-icon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="imgs/logo-icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/gallery-style.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Mono:400,300' rel='stylesheet' type='text/css'>
     <title>Gallery</title>
   </head>
   <body>
 
     <div id="app" data-state="gallery">
       <div class="gallery">
-        <!--
-    figure.gallery-image*30>img[src="https://source.unsplash.com/collection/2022043/700x900/?=$$"]+figcaption -->
         <figure class="gallery-image">
-          <img src="cut1.jpg" width="800" height="800" />
+          <img src="pictures/cut1.jpg" width="800" height="800" />
           <figcaption>1</figcaption>
         </figure>
         <figure class="gallery-image">
-          <img src="cut2.jpg"  width="800" height="600" />
+          <img src="pictures/cut2.jpg"  width="800" height="600" />
           <figcaption>2</figcaption>
         </figure>
         <figure class="gallery-image">
-          <img src="cut3.jpg"  width="800" height="400" />
+          <img src="pictures/cut3.jpg"  width="800" height="400" />
           <figcaption>3</figcaption>
         </figure>
         <figure class="gallery-image">
-          <img src="cut4.jpg"  width="800" height="600" />
+          <img src="pictures/cut4.jpg"  width="800" height="600" />
           <figcaption>4</figcaption>
         </figure>
         <figure class="gallery-image">
-          <img src="cut5.jpg" width="800" height="900" />
+          <img src="pictures/cut5.jpg" width="800" height="900" />
           <figcaption>5</figcaption>
         </figure>
         <figure class="gallery-image">
-          <img src="cut6.jpg"  width="800" height="600" />
+          <img src="pictures/cut6.jpg"  width="800" height="600" />
           <figcaption>6</figcaption>
         </figure>
         <figure class="gallery-image">
-          <img src="cut7.jpg"  width="800" height="700" />
+          <img src="pictures/cut7.jpg"  width="800" height="700" />
           <figcaption>7</figcaption>
         </figure>
 
         <figure class="gallery-image">
-          <img src="cut8.jpg" width="800" height="800" />
+          <img src="pictures/cut8.jpg" width="800" height="800" />
           <figcaption>8</figcaption>
         </figure>
         <figure class="gallery-image">
-          <img src="cut9.jpg" width="800" height="600" />
+          <img src="pictures/cut9.jpg" width="800" height="600" />
           <figcaption>9</figcaption>
         </figure>
         <figure class="gallery-image">
-          <img src="cut10.jpg" />
+          <img src="pictures/cut10.jpg" />
           <figcaption>10</figcaption>
         </figure>
 
@@ -132,17 +138,7 @@
         <!--   cloned figure/image goes here!   -->
       </div>
     </div>
-
-
   </body>
-  <script>
-    var elem = document.querySelector('.m-p-g');
-
-    document.addEventListener('DOMContentLoaded', function() {
-      var gallery = new MaterialPhotoGallery(elem);
-    });
-  </script>
-  <script type="text/javascript" src="galleryscript2.js">
-
+  <script type="text/javascript" src="scripts/gallery-script.js">
   </script>
 </html>
