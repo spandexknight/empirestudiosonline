@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Piazzolla:wght@100&display=swap');
+@font-face {
+  font-family: myFirstFont;
+  src: url(Hello-Santuy.ttf);
+}
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -110,13 +113,14 @@ footer a {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  font-family: 'Piazzolla', serif;
+  font-family: myFirstFont;
   font-size: 18px;
 }
 a {
   text-decoration: none;
   color: black;
-  font-size: 12px;
+  font-size: 60px;
+  font-weight: bold;
 }
 /*
 .loading-txt.is-hidden {
