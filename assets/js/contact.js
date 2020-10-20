@@ -1,9 +1,9 @@
 $(document).ready(function(){
-    
+
     (function($) {
         "use strict";
 
-    
+
     jQuery.validator.addMethod('answercheck', function (value, element) {
         return this.optional(element) || /^\bcat\b$/.test(value)
     }, "type the correct answer -_-");
@@ -18,40 +18,40 @@ $(document).ready(function(){
                 },
                 subject: {
                     required: true,
-                    minlength: 4
-                },
-                number: {
-                    required: true,
-                    minlength: 5
+                    minlength: 3
                 },
                 email: {
-                    required: true,
+                    required: false,
                     email: true
                 },
                 message: {
                     required: true,
-                    minlength: 20
+                    minlength: 10
+                },
+                phone: {
+                  required: true,
+                  minlength: 9
                 }
             },
             messages: {
                 name: {
-                    required: "come on, you have a name, don't you?",
-                    minlength: "your name must consist of at least 2 characters"
+                    required: "Please enter your name",
+                    minlength: "Your name must consist of at least 2 characters"
                 },
                 subject: {
-                    required: "come on, you have a subject, don't you?",
-                    minlength: "your subject must consist of at least 4 characters"
+                    required: "You have a subject, don't you?",
+                    minlength: "Your subject must consist of at least 3 characters"
                 },
-                number: {
-                    required: "come on, you have a number, don't you?",
-                    minlength: "your Number must consist of at least 5 characters"
+                phone: {
+                    required: "Please enter your phone number",
+                    minlength: "Your Number must consist of at least 9 characters"
                 },
                 email: {
                     required: "no email, no message"
                 },
                 message: {
-                    required: "um...yea, you have to write something to send this form.",
-                    minlength: "thats all? really?"
+                    required: "You have to write a message to send this form",
+                    minlength: "You have to write a minimum of 10 characters"
                 }
             },
             submitHandler: function(form) {
@@ -80,6 +80,6 @@ $(document).ready(function(){
             }
         })
     })
-        
+
  })(jQuery)
 })
