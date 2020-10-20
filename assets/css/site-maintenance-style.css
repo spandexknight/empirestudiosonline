@@ -13,7 +13,7 @@ a {
 
 @media (min-width: 640px) {
   body {
-    background-image: url(img.jpg);
+    background-image: url(../img/gallery/img.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
