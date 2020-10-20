@@ -30,7 +30,7 @@ $(document).ready(function(){
                 },
                 phone: {
                   required: true,
-                  minlength: 9
+                  minlength: 10
                 }
             },
             messages: {
@@ -44,10 +44,10 @@ $(document).ready(function(){
                 },
                 phone: {
                     required: "Please enter your phone number",
-                    minlength: "Your Number must consist of at least 9 characters"
+                    minlength: "Your number must consist of at least 10 characters"
                 },
                 email: {
-                    required: "no email, no message"
+                    required: "Email is not required, but helps us get in touch with you"
                 },
                 message: {
                     required: "You have to write a message to send this form",
