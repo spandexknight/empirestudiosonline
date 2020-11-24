@@ -26,9 +26,14 @@
   <link rel="stylesheet" href="assets/css/slick.css">
   <link rel="stylesheet" href="assets/css/nice-select.css">
   <link rel="stylesheet" href="assets/css/style.css">
+  <script type="text/javascript">
+  window.onload=function(){
+      document.getElementById("my_audio").play();
+    }
+  </script>
 </head>
 <body>
-  <audio src="mysong.mp3" id="my_audio" loop="loop" autoplay="autoplay"></audio>
+  <audio src="assets/audio/01_Cry.ogg" id="my_audio" loop="loop" autoplay="autoplay"></audio>
 
   <!-- ? Preloader Start -->
   <div id="preloader-active">
@@ -460,10 +465,6 @@
   <!-- Jquery Plugins, main Jquery -->
   <script src="./assets/js/plugins.js"></script>
   <script src="./assets/js/main.js"></script>
-  <script type="text/javascript">
-  window.onload=function(){
-      document.getElementById("assets/audio/01_Cry.ogg").play();
-    }
-  </script>
+
 </body>
 </html>
