@@ -2,7 +2,14 @@
   font-family: myFirstFont;
   src: url(../fonts/ShreeDevanagari714.ttf);
 }
-
+@font-face {font-family: "Shree Devanagari 714";
+  src: url("d02befc8fdd8e5315fb21fa7f38fd55a.eot"); /* IE9*/
+  src: url("d02befc8fdd8e5315fb21fa7f38fd55a.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("d02befc8fdd8e5315fb21fa7f38fd55a.woff2") format("woff2"), /* chrome、firefox */
+  url("d02befc8fdd8e5315fb21fa7f38fd55a.woff") format("woff"), /* chrome、firefox */
+  url("d02befc8fdd8e5315fb21fa7f38fd55a.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("d02befc8fdd8e5315fb21fa7f38fd55a.svg#Shree Devanagari 714") format("svg"); /* iOS 4.1- */
+}
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -121,7 +128,7 @@ footer a {
   position: absolute;
   top: 69%;
   transform: translateY(-50%);
-  font-family: myFirstFont;
+  font-family:"Shree Devanagari 714" !important;
 }
 a {
   text-decoration: none;
