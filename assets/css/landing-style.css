@@ -117,7 +117,7 @@ footer a {
 .loading-txt1 {
   text-align: center;
   width: 100%;
-  font-size: 40px;
+  font-size: 80px;
   position: absolute;
   top: 69%;
   transform: translateY(-50%);
@@ -126,7 +126,6 @@ footer a {
 a {
   text-decoration: none;
   color: black;
-  font-size: 60px;
 }
 /*
 .loading-txt.is-hidden {
