@@ -2,7 +2,6 @@
   font-family: myFirstFont;
   src: url(../fonts/ShreeDevanagari714.ttf);
 }
-@import url(//db.onlinewebfonts.com/c/d02befc8fdd8e5315fb21fa7f38fd55a?family=Shree+Devanagari+714);
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -118,7 +117,7 @@ footer a {
 .loading-txt1 {
   text-align: center;
   width: 100%;
-  font-size: 24px;
+  font-size: 22px;
   position: absolute;
   top: 69%;
   transform: translateY(-50%);
