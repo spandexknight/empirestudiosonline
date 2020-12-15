@@ -116,10 +116,10 @@ footer a {
 }
 .loading-txt1 {
   text-align: center;
-  width: 100%;
   font-size: 18px;
   position: absolute;
   top: 69%;
+  transform: translateY(-50%);
   font-family: myFirstFont;
 }
 a {
