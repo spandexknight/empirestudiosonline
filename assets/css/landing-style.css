@@ -120,7 +120,6 @@ footer a {
   font-size: 18px;
   position: absolute;
   top: 69%;
-  transform: translateY(-50%);
   font-family: myFirstFont;
 }
 a {
