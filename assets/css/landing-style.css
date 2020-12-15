@@ -124,7 +124,7 @@ footer a {
   font-family: myFirstFont;
 }
 
-@media (max-width : 320px) {
+@media (width : 1024px) {
 .loading-txt1 {
     top: 69%;
   }
