@@ -122,6 +122,7 @@ footer a {
   top: 69%;
   transform: translateY(-50%);
   font-family: myFirstFont;
+  font-weight: bold;
 }
 a {
   text-decoration: none;
