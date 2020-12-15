@@ -119,10 +119,17 @@ footer a {
   width: 100%;
   font-size: 90px;
   position: absolute;
-  top: 74%;
+  top: 90%;
   transform: translateY(-50%);
   font-family: myFirstFont;
 }
+
+@media (max-width : 320px) {
+.loading-txt1 {
+    top: 69%;
+  }
+}
+
 a {
   text-decoration: none;
   color: white;
